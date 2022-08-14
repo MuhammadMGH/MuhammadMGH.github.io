@@ -13,6 +13,7 @@ body {
   margin: 0;
   user-select: none;
   text-align: center;
+  font-family: verdana;
 }
 header {
     padding: 4em 5em;
@@ -137,18 +138,28 @@ header {
   color: #666;
 }
 .hi {
-  width: 80px
+  width: 45px
+}
+.he {
+  width: 50px;
 }
 .ho {
-  width: 85px;
+  width: 40px;
 }
 .ho:hover {
-  width: 100px;
+  width: 55px;
   transition: 0.2s;
 }
 .hi:hover {
-  width: 90px;
+  width: 60px;
   transition: 0.2s;
+}
+.tle {
+  width: 40px;
+}
+.tle:hover {
+  transition: 0.1s;
+  width: 60px;
 }
 </style>
 </head>
@@ -197,22 +208,25 @@ header {
   </section>
         <section class="socials">
           <p class="twitter-massge"><a class="link" href="https://MuhammadMGH.github.io">MuhammadMGH.github.io </a>This is my first home page , please see ;)</p>
-          <a href="" class="button twitter-link">Follow me</a>
+          <a href="https://jsbin.com/kitutay/7" class="button twitter-link">Next Project</a>
         </section>
     </main>
     <footer class="footer">
       <ul class="social-list">
         <li class="social-item">
-          <a class="social-link" href=""><img class="hi"  src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/></a>
+          <a class="social-link" href="https://MuhammadMGH.github.io/dis.html"><img class="hi"  src="https://img.icons8.com/ios-filled/50/000000/discord-logo.png"/></a>
         </li>
         <li class="social-item">
-          <a class="social-link" href=""><img class="hi"  src="https://img.icons8.com/glyph-neue/64/000000/github.png"/></a>
+          <a class="social-link" href="https://github.com/MuhammadMGH/MuhammadMGH.github.io"><img class="hi"  src="https://img.icons8.com/glyph-neue/64/000000/github.png"/></a>
         </li>
         <li class="social-item">
-          <a class="social-link" href=""><img class="ho"  src="https://img.icons8.com/color/48/000000/whatsapp--v5.png"/></a>
+          <a class="social-link" href="https://wa.me/983958137678?text=Hey%there%How’re%you%doing"><img class="ho"  src="https://img.icons8.com/ios-filled/50/000000/whatsapp--v1.png"/></a>
+        </li>
+        <li class="social-item">
+          <a class="social-link" href="https://Telegram.me/Sh,mobin"><img class="tle"  src="https://img.icons8.com/ios-filled/50/000000/telegram-app.png"/></a>
         </li>
       </ul>
-      <p class="copyright">Copyright</p>
+      <p class="copyright">Copyright 2022 My name is Muhammad GH and I full stack developer </p>
     </footer>
 </body>
 </html>
