@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Home Page MGH</title>
 <style>
-.slm {
+  .slm {
   border-radius: 50%;
   width: 150px;
   height: 150px;
@@ -16,7 +15,7 @@ body {
   font-family: verdana;
 }
 header {
-    padding: 4em 5em;
+  padding: 4em 5em;
   background-color: #5fdbe0;
   background-image: url('//MuhammadMGH.github.io/US-wp3.jpg');
   background-repeat: no-repeat;
@@ -157,11 +156,8 @@ header {
 .tle {
   width: 40px;
 }
-.tle:hover {
-  transition: 0.1s;
-  width: 60px;
-}
 </style>
+<title>Home Page MGH</title>
 </head>
 <body>
     <header class="header">
@@ -171,17 +167,16 @@ header {
           <a class="nav-link" href="">Home</a>
       </li>
       <li class="nav-item">
-          <a class="nav-link" href="">About Me</a>
+          <a class="nav-link" href="https://MuhammadMGH.github.io/text.html">About Me</a>
       </li>
       <li class="nav-item">
-          <a class="nav-link" href="">Contact Me</a>
       </li>
     </ul>
     </nav>
     <img class="slm" src="//MuhammadMGH.github.io/20220505_101712_HDR_2.jpg">
       <h1 class="title">Muhammad Ghafoorian</h1>
       <p class="bio">something about me</p>
-      <a class="button contact-link" href="">content me</a>
+      <a class="button contact-link" href="https://MuhammadMGH.github.io/index.html">Content Me</a>
     </header>
     <main>
         <section class="projects">
@@ -207,7 +202,7 @@ header {
   </ul>
   </section>
         <section class="socials">
-          <p class="twitter-massge"><a class="link" href="https://MuhammadMGH.github.io">MuhammadMGH.github.io </a>This is my first home page , please see ;)</p>
+          <p class="twitter-massge"><a class="link" href="https://MuhammadMGH.github.io">https://github.com/MuhammadMGH/MuhammadMGH.github.io</a>/This is my first home page , please see ;)</p>
           <a href="https://jsbin.com/kitutay/7" class="button twitter-link">Next Project</a>
         </section>
     </main>
